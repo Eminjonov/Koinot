@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: white;
+  background-image: url("./image/Stars\ -\ Start.png"); /* Use your own background image */
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav ul li .btn {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 20px 0 0 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  padding: 0 100px;
+}
+
+.content {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 72px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-top: -20px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.discover-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 30px;
+  border-radius: 15px 0 0 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.astronaut {
+  max-width: 50%;
+}
+
+.astronaut img {
+  width: 100%;
+
+}
